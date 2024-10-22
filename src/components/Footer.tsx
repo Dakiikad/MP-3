@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 const Footer = styled.footer`
-    border:black; 
+    border:white; 
     padding-bottom: 5%;
     padding-left: 20%;
 `

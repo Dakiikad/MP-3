@@ -31,7 +31,7 @@ const ButContainer = styled.main`
 const Button = styled.button`
     width: 100%;
     margin: 5% 0;
-    padding: 10px;
+    padding: 5%;
     color: white;
     background-color: green;
     display: flex;
@@ -50,24 +50,24 @@ const Button = styled.button`
 const Label = styled.label`
     font-size: 18px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
 `;
 
 const Input = styled.input`
     width: 80%;
-    padding: 10px;
+    padding: 5%;
     font-size: 1.2rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 5%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
 const OutputDiv = styled.div<{ isNegative: boolean }>`
     font-size: 1.5rem;
     color: ${(props) => (props.isNegative ? "red" : "#333")};
-    margin-top: 20px;
+    margin-top: 10%;
     text-align: center;
 `;
 

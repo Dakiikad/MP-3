@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 const NavBar = styled.nav`
     position: absolute;
     top: 10%;
-    background-color: green;
+    background-color: lightgreen;
     width: 15%;
     left: 0;
     display: flex;

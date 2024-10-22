@@ -4,7 +4,7 @@ const Name = styled.div`
     position: Fixed;
     justify-content: Center;
     top: 0;
-    background-color: green;
+    background-color: grey;
     width: 100%;
     left:0%; 
     font-size: calc(10px + 2px);
